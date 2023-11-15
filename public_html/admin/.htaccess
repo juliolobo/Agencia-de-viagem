@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^inicio/?$ /index.php [NC,L]
+    
+    RewriteCond %{SCRIPT_FILENAME} !-f
+    RewriteCond %{SCRIPT_FILENAME} !-d
+    RewriteRule ^([0-9A-z_-]+)$ index.php?pg=$1 [QSA,L,NC]
+    
+    RewriteRule ^([0-9A-z_-]+)$ index.php?pg=$1 [QSA,L,NC]
+    RewriteRule ^([0-9A-z_-]+)\/([0-9A-z_-]+)$ index.php?pg=$1&id=$2 [QSA,L,NC]
+</IfModule>

@@ -1,0 +1,25 @@
+{
+    "name": "juliolobo/embarqueideal",
+    "description": "Site desenvolvido para a Embarque Ideal",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Julio Cesar A. Lobo",
+            "email": "contato@lobohost.com.br",
+            "role": "Developer",
+            "homepage": "https://lobohost.com.br"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}
