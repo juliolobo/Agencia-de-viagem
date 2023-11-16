@@ -1,7 +1,7 @@
 # Agencia de viagem
  Site e dashboard para gerenciar orçamentos de uma agência de viagens
 
-Desenvolvido em PHP com banco de dados MySQL
+Desenvolvido em PHP com banco de dados MySQL. 
 Projeto não concluído pois o cliente desistiu do projeto enquanto estava em desenvolvimento.
 
 O que foi feito.
