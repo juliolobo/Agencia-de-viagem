@@ -39,7 +39,7 @@ CREATE TABLE `configuracoes` (
 /*Data for the table `configuracoes` */
 
 insert  into `configuracoes`(`name`,`subtitle`,`phone1`,`phone2`,`email`,`doc`,`rua`,`bairro`,`cidade`,`estado`,`pais`,`zipcode`,`instagram`,`youtube`,`facebook`) values 
-('Embarque Ideal','Agência de Turismo','+55 12 97850-1637',NULL,'comercial@embarqueideal.com',43,'Avenida Coelho da Rocha, 2235 - Bl 9 - Apto 201','Rocha Sobrinho','Mesquita','RJ','Br',26572480,'https://instagram.com/embarqueideal',NULL,'https://www.facebook.com/profile.php?id=100091613476387');
+('Embarque Ideal','Agência de Turismo','+55 12 99999-9999',NULL,'comercial@embarqueideal.com',43,'Avenida teste da silva, 2233 - Apto 201','Rocha Sobrinho','Mesquita','RJ','Br',26554110,'https://instagram.com/embarqueideal',NULL,'https://www.facebook.com/profile.php?id=100091613476387');
 
 /*Table structure for table `contato` */
 
