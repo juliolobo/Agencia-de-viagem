@@ -475,11 +475,11 @@ CREATE TABLE `orcamentos` (
 
 insert  into `orcamentos`(`id`,`origem`,`destino`,`data_ida`,`data_volta`,`passageiros`,`nome`,`tel`,`email`,`hora`,`status`,`valor`,`pagamento`,`obs`,`pass_int_origem`,`pass_int_destino`,`pass_int_data_ida`,`pass_int_data_volta`,`pass_int_qtd`,`pass_int_bag10k`,`pass_int_bag23k`,`pass_int_preco`,`pass_nac_origem`,`pass_nac_destino`,`pass_nac_data_ida`,`pass_nac_data_volta`,`pass_nac_qtd`,`pass_nac_bag10k`,`pass_nac_bag23k`,`pass_nac_preco`,`pass_rod_origem`,`pass_rod_destino`,`pass_rod_data_ida`,`pass_rod_data_volta`,`pass_rod_qtd`,`pass_rod_preco`,`seguro`,`assessoria`,`taxas`,`total`,`dt_cadastro`) values 
 (1,'rj','go','2023-08-29','2023-09-05',2,'asdas dasda','+55 21 96565656565','asdasdasdasda@asda.com','17:00',5,0,0,'','','','0000-00-00','0000-00-00',0,0,0,'','','','0000-00-00','0000-00-00',0,0,0,'','','','0000-00-00','0000-00-00',0,'','','','','','2023-08-24 17:11:51'),
-(3,'RJ','Florianópolis','2023-12-26','2024-01-07',1,'Julio Lobo','+55 21964218122','juliolobo.info@gmail.com','17:00',4,0,0,'','','','0000-00-00','0000-00-00',0,0,0,'','','','0000-00-00','0000-00-00',0,0,0,'','','','0000-00-00','0000-00-00',0,'','','','','','2023-08-24 17:13:56'),
-(5,'Portugal','São Paulo','2023-08-29','2023-09-05',3,'Teste da silva','+55 21964218122','asdasd@asdasd.com','17:00',2,0,0,'','','','0000-00-00','0000-00-00',0,0,0,'','','','0000-00-00','0000-00-00',0,0,0,'','','','0000-00-00','0000-00-00',0,'','','','','','2023-08-24 17:16:27'),
+(3,'RJ','Florianópolis','2023-12-26','2024-01-07',1,'Julio Lobo','+55 21999999999','juliolobo.info@gmail.com','17:00',4,0,0,'','','','0000-00-00','0000-00-00',0,0,0,'','','','0000-00-00','0000-00-00',0,0,0,'','','','0000-00-00','0000-00-00',0,'','','','','','2023-08-24 17:13:56'),
+(5,'Portugal','São Paulo','2023-08-29','2023-09-05',3,'Teste da silva','+55 21999999999','asdasd@asdasd.com','17:00',2,0,0,'','','','0000-00-00','0000-00-00',0,0,0,'','','','0000-00-00','0000-00-00',0,0,0,'','','','0000-00-00','0000-00-00',0,'','','','','','2023-08-24 17:16:27'),
 (7,'Rio das Ostras','Parati','2023-08-29','2023-09-05',5,'Alex','+55 21465465465','asdasd@asdasd.com','17:00',3,0,0,'','','','0000-00-00','0000-00-00',0,0,0,'','','','0000-00-00','0000-00-00',0,0,0,'','','','0000-00-00','0000-00-00',0,'','','','','','2023-08-24 17:17:29'),
 (9,'TESTE','teste','2023-08-29','2023-09-05',8,'asdasdasd','+55 219656565','asdasdasd@asdasd.com','17:00',5,0,0,'','','','0000-00-00','0000-00-00',0,0,0,'','','','0000-00-00','0000-00-00',0,0,0,'','','','0000-00-00','0000-00-00',0,'','','','','','2023-08-24 17:18:26'),
-(10,'Niteroi','Paris','10/09/2023','31/12/1969',5,'Julio Teste','+55 21964218122','asasdasd@aasdasd.com','17:00',1,0,0,'','Natal','Orlando','2023-11-10','2023-11-30',1,1,1,'1000,00','Rio de Janeiro','Natal','2023-11-10','2023-12-01',2,2,2,'500,00','','','0000-00-00','0000-00-00',0,'','','','','1500,00','2023-08-25 00:16:11');
+(10,'Niteroi','Paris','10/09/2023','31/12/1969',5,'Julio Teste','+55 21999999999','asasdasd@aasdasd.com','17:00',1,0,0,'','Natal','Orlando','2023-11-10','2023-11-30',1,1,1,'1000,00','Rio de Janeiro','Natal','2023-11-10','2023-12-01',2,2,2,'500,00','','','0000-00-00','0000-00-00',0,'','','','','1500,00','2023-08-25 00:16:11');
 
 /*Table structure for table `permissoes` */
 
@@ -519,10 +519,10 @@ CREATE TABLE `users` (
 /*Data for the table `users` */
 
 insert  into `users`(`id`,`nome`,`email`,`phone1`,`phone2`,`nivel`,`login`,`senha`,`obs`,`status`) values 
-(99,'Julio Lobo','juliolobo.info@gmail.com','21 96421-8122','',99,'juliolobo','$2y$10$dGQBsVZ8r1aslCkOWTWbRel8VucW6Q321rNdMnadmvwLEbjGnE7V.','',1),
-(100,'Anderson Sato','andersonsato@embarqueideal.com','21 98061-2162','21 99999-9999',1,'andersonsato','$2y$10$oq8W5O9tk2Hi.nlSEbIpnue5X0AtxKYQfeDUlTxDlXb9tR2NabQQq','Testando pra ver como é',1),
-(101,'Caroline Lara','carolinelara@embarqueideal.com','12 97850-1637','',1,'carolinelara','$2y$10$K7n8lR4tZM0/fVK8IZhSGuFpcza47pO.rktqtuI8kyGOwUuT6Y.xa','',1),
-(105,'Gustavo Amaral','gustavoamaral@embarqueideal.com','21 96735-0979','',1,'gustavoamaral','$2y$10$YubMIx3cRUc.Jf2FL7rwGOswQTQin8yeuijEq/PI7wA28qinpvvPq','              ',1),
+(99,'Julio Lobo','juliolobo.info@gmail.com','21 99999-9999','',99,'juliolobo','$2y$10$dGQBsVZ8r1aslCkOWTWbRel8VucW6Q321rNdMnadmvwLEbjGnE7V.','',1),
+(100,'Anderson Sato','andersonsato@embarqueideal.com','21 99999-9999','21 99999-9999',1,'andersonsato','$2y$10$oq8W5O9tk2Hi.nlSEbIpnue5X0AtxKYQfeDUlTxDlXb9tR2NabQQq','Testando pra ver como é',1),
+(101,'Caroline Lara','carolinelara@embarqueideal.com','12 99999-9999','',1,'carolinelara','$2y$10$K7n8lR4tZM0/fVK8IZhSGuFpcza47pO.rktqtuI8kyGOwUuT6Y.xa','',1),
+(105,'Gustavo Amaral','gustavoamaral@embarqueideal.com','21 99999-9999','',1,'gustavoamaral','$2y$10$YubMIx3cRUc.Jf2FL7rwGOswQTQin8yeuijEq/PI7wA28qinpvvPq','              ',1),
 (106,'Julio Teste','asdasdasd@asdasd.com','21 46546-5456','',3,'sdasdasd','$2y$10$HuADPoxWOVzukryQ32J5bezsjQaUG06L3L3YuNCODs4MBNDS9qGMC','  ',0);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
